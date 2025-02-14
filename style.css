@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h2, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Heading Style */
+h2 {
+    margin-bottom: 100px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Button Style */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Div Style (for color display) */
+div {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #d5e2f1;
+    border: 1px solid #1d1a1a;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+}
